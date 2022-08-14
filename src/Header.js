@@ -1,5 +1,7 @@
 import React from "react";
-import AmazonLogo from "./images/amazon-logo.png"
+import AmazonLogo from "./images/amazon-logo.png";
+import SearchIcon from "@mui/icons-material/Search";
+import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
 import "./Header.css";
 
 function Header() {
@@ -8,7 +10,7 @@ function Header() {
       <img className="header__logo" src={AmazonLogo} alt="amazon logo" />
       <div className="header__search">
         <input className="header__searchInput" type="text" />
-        {/* Logo */}
+        <SearchIcon className="header__searchIcon" />
       </div>
 
       <div className="header__nav">
@@ -26,6 +28,12 @@ function Header() {
           <span className="header__optionLineOne">Your</span>
           <span className="header__optionLineTwo">Prime</span>
         </div>
+
+        <div className="header__optionBasket">
+          <ShoppingBasketIcon className="" />
+          <span className="header__optionLineTwo header__basketCount">0</span>
+        </div>
+
       </div>
     </div>
   );
