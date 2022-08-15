@@ -9,12 +9,12 @@ function App() {
     // BEM
     <Router>
       <div className="App">
+        <Header />
         <Routes>
           <Route
             path="/checkout"
             element={
               <>
-                <Header />
                 <Checkout />
               </>
             }
@@ -23,7 +23,6 @@ function App() {
             path="/"
             element={
               <>
-                <Header />
                 <Home />
               </>
             }
