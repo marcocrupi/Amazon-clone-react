@@ -1,18 +1,23 @@
 {
   "files": {
-    "main.css": "/Amazon-clone-react/static/css/main.8fdf2176.css",
-    "main.js": "/Amazon-clone-react/static/js/main.9f969bfa.js",
+    "main.css": "/Amazon-clone-react/static/css/main.c4e1bda6.css",
+    "main.js": "/Amazon-clone-react/static/js/main.31089372.js",
     "static/js/787.ebd7646a.chunk.js": "/Amazon-clone-react/static/js/787.ebd7646a.chunk.js",
-    "static/media/product001.jpg": "/Amazon-clone-react/static/media/product001.02daa2df1095ea527405.jpg",
+    "static/media/product003.jpg": "/Amazon-clone-react/static/media/product003.d7ccad8a86b1db7253ea.jpg",
+    "static/media/product004.jpg": "/Amazon-clone-react/static/media/product004.7f05c508433ffbb2c166.jpg",
     "static/media/home_image.jpg": "/Amazon-clone-react/static/media/home_image.8be86c5897d9e894743d.jpg",
+    "static/media/product006.jpg": "/Amazon-clone-react/static/media/product006.11500b8ed6f4a0923cd3.jpg",
+    "static/media/product001.jpg": "/Amazon-clone-react/static/media/product001.c026a903d7d752d787c1.jpg",
     "static/media/amazon-logo.png": "/Amazon-clone-react/static/media/amazon-logo.16618a258dbc21fa36ec.png",
+    "static/media/product002.jpg": "/Amazon-clone-react/static/media/product002.8ce59d569f6dc73fbf95.jpg",
+    "static/media/product005.jpg": "/Amazon-clone-react/static/media/product005.4e615904abaea63ac518.jpg",
     "index.html": "/Amazon-clone-react/index.html",
-    "main.8fdf2176.css.map": "/Amazon-clone-react/static/css/main.8fdf2176.css.map",
-    "main.9f969bfa.js.map": "/Amazon-clone-react/static/js/main.9f969bfa.js.map",
+    "main.c4e1bda6.css.map": "/Amazon-clone-react/static/css/main.c4e1bda6.css.map",
+    "main.31089372.js.map": "/Amazon-clone-react/static/js/main.31089372.js.map",
     "787.ebd7646a.chunk.js.map": "/Amazon-clone-react/static/js/787.ebd7646a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8fdf2176.css",
-    "static/js/main.9f969bfa.js"
+    "static/css/main.c4e1bda6.css",
+    "static/js/main.31089372.js"
   ]
 }
