@@ -20,7 +20,7 @@ function App() {
             }
           />
           <Route
-            path="/"
+            path="/Amazon-clone-react"
             element={
               <>
                 <Home />
