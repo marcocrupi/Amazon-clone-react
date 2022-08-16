@@ -8,7 +8,7 @@ import "./Header.css";
 function Header() {
   return (
     <div className="header">
-      <Link to="/">
+      <Link to="/Amazon-clone-react">
         <img className="header__logo" src={AmazonLogo} alt="amazon logo" />
       </Link>
 
