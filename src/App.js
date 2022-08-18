@@ -1,21 +1,20 @@
 import "./App.css";
 import Header from "./Header";
 import Home from "./Home";
+import Login from "./Login"
 import Checkout from "./Checkout";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
-    // BEM
     <Router>
       <div className="App">
-        <Header />
         <Routes>
           <Route
             path="/login"
             element={
               <>
-                <h1>LOGIN PAGE</h1>
+                <Login />
               </>
             }
           />
@@ -23,6 +22,7 @@ function App() {
             path="/checkout"
             element={
               <>
+                <Header />
                 <Checkout />
               </>
             }
@@ -31,6 +31,7 @@ function App() {
             path="/Amazon-clone-react"
             element={
               <>
+                <Header />
                 <Home />
               </>
             }
