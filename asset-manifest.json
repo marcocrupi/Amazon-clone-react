@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Amazon-clone-react/static/css/main.d3ec8de0.css",
-    "main.js": "/Amazon-clone-react/static/js/main.5307a48e.js",
+    "main.css": "/Amazon-clone-react/static/css/main.9fd7b175.css",
+    "main.js": "/Amazon-clone-react/static/js/main.6f6e4fe4.js",
     "static/js/787.ebd7646a.chunk.js": "/Amazon-clone-react/static/js/787.ebd7646a.chunk.js",
     "static/media/product003.jpg": "/Amazon-clone-react/static/media/product003.d7ccad8a86b1db7253ea.jpg",
     "static/media/product004.jpg": "/Amazon-clone-react/static/media/product004.7f05c508433ffbb2c166.jpg",
@@ -13,12 +13,12 @@
     "static/media/product005.jpg": "/Amazon-clone-react/static/media/product005.4e615904abaea63ac518.jpg",
     "static/media/amazon_ad_.jpg": "/Amazon-clone-react/static/media/amazon_ad_.b842b1e4bb0cc75ce652.jpg",
     "index.html": "/Amazon-clone-react/index.html",
-    "main.d3ec8de0.css.map": "/Amazon-clone-react/static/css/main.d3ec8de0.css.map",
-    "main.5307a48e.js.map": "/Amazon-clone-react/static/js/main.5307a48e.js.map",
+    "main.9fd7b175.css.map": "/Amazon-clone-react/static/css/main.9fd7b175.css.map",
+    "main.6f6e4fe4.js.map": "/Amazon-clone-react/static/js/main.6f6e4fe4.js.map",
     "787.ebd7646a.chunk.js.map": "/Amazon-clone-react/static/js/787.ebd7646a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3ec8de0.css",
-    "static/js/main.5307a48e.js"
+    "static/css/main.9fd7b175.css",
+    "static/js/main.6f6e4fe4.js"
   ]
 }
