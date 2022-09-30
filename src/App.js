@@ -1,5 +1,3 @@
-// This site uses Material UI Icons https://mui.com/material-ui/material-icons/
-
 import "./App.css";
 import Header from "./Header";
 import Home from "./Home";

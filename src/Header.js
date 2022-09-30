@@ -4,6 +4,7 @@ import AmazonLogo from "./images/amazon-logo.png";
 // This site uses Material UI Icons https://mui.com/material-ui/material-icons/
 import SearchIcon from "@mui/icons-material/Search";
 import ShoppingBasketIcon from "@mui/icons-material/ShoppingBasket";
+
 import { Link } from "react-router-dom";
 import { useStateValue } from "./StateProvider";
 import "./Header.css";

@@ -2,6 +2,7 @@ import React from "react";
 import "./Product.css";
 import { useStateValue } from "./StateProvider";
 
+// props from Home.js
 function Product({ id, title, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
@@ -30,9 +31,10 @@ function Product({ id, title, image, price, rating }) {
           <strong>{price}</strong>
         </p>
         <div className="product__rating">
+          {/* Changing the rating value in Home.js changes the number of stars */}
           {Array(rating)
             .fill()
-            .map((_, i) => (
+            .map(() => (
               <p>⭐</p>
             ))}
         </div>
