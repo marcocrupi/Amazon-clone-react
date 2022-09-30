@@ -1,3 +1,7 @@
+// npm package: npm i react-currency-format
+// https://www.npmjs.com/package/react-currency-format
+// React component to format number in an input or as a text
+
 import React from "react";
 import "./Subtotal.css";
 import { useStateValue } from "./StateProvider";
