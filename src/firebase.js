@@ -1,3 +1,5 @@
+// Install firebase into our project: npm i firebase
+
 // Link for me, to check if users are registered in the database:
 // https://console.firebase.google.com/u/0/project/clone-514e2/authentication/users
 

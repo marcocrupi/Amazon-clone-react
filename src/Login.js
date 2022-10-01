@@ -9,13 +9,15 @@ function Login() {
   const [password, setPassword] = useState("");
 
   const signIn = (e) => {
+    // prevent refreshing
     e.preventDefault();
 
+    // Authenticate with Firebase using Password-Based Accounts using Javascript 
+    // Documentation at this link: https://firebase.google.com/docs/auth/web/password-auth
     auth
       .signInWithEmailAndPassword(email, password)
       .then((auth) => {
         navigate("/Amazon-clone-react");
-        console.log(auth);
       })
       .catch((error) => alert(error.message));
   };
@@ -27,7 +29,6 @@ function Login() {
       .createUserWithEmailAndPassword(email, password)
       .then((auth) => {
         // it successfully created a new user with email and password
-        console.log(auth);
         if (auth) {
           navigate("/Amazon-clone-react");
         }
