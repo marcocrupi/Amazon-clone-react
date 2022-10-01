@@ -25,11 +25,17 @@ function Payment() {
   useEffect(() => {
     // generate the special stripe secret which allows us to charge a customer
     const getClientSecret = async () => {
+
+      // Axios is an HTTP client library based on promises. 
+      // It makes sending asynchronous HTTP requests to REST endpoints easier and helps you perform CRUD operations. 
+      // This REST endpoint/API could be an external API like the Google API, GitHub API, and so on – or it could be your own backend Node. js server.
+      // Axios is more easy than fetch API
       const response = await axios({
         method: "post",
         // Stripe expects the total in a currencies subunits
         url: `/payments/create?total=${getBasketTotal(basket) * 100}`,
       });
+      // Data from the backend
       setClientSecret(response.data.clientSecret);
     };
 
@@ -40,7 +46,6 @@ function Payment() {
   console.log("👱", user);
 
   const handleSubmit = async (event) => {
-    // do all the fancy stripe stuff...
     event.preventDefault();
     setProcessing(true);
 

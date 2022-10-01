@@ -10,6 +10,7 @@ import Payment from "./Payment";
 // Install React Stripe.js - Documentation: https://stripe.com/docs/stripe-js/react
 import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
+
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 
