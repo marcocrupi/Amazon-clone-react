@@ -9,7 +9,8 @@ import { StateProvider } from "./StateProvider";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    {/* Each individual component can access the data layer */}
+    {/* Each individual component can access the data layer
+    The reducer is used to dispatch the item to the data layer*/}
     <StateProvider initialState={initialState} reducer={reducer}>
       <App />
     </StateProvider>

@@ -1,3 +1,6 @@
+// Link for me, to check if users are registered in the database:
+// https://console.firebase.google.com/u/0/project/clone-514e2/authentication/users
+
 import firebase from "firebase/compat/app";
 import "firebase/compat/auth";
 import "firebase/compat/firestore";

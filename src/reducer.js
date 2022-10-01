@@ -1,3 +1,8 @@
+// The reducer is a place where you declare all the application level states 
+// which can be used later by the application.
+
+// In initialState, we declare the states we are going to use. 
+// In this case, basket and user. 
 export const initialState = {
   basket: [],
   user: null,
